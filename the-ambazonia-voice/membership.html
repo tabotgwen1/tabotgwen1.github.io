@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership | The Ambazonian Voice</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">The Ambazonian Voice</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="mission.html">Mission</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+                <li><a href="membership.html" class="active">Membership</a></li>
+                 <li><a href="news.html">News</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    
+    <!-- Membership Section -->
+    <section class="membership-page">
+        <div class="container">
+            <h1>Join The Ambazonian Voice</h1>
+            <p>Become a member and actively support the movement. Fill out the form below to get involved.</p>
+
+            <form action="#" class="membership-form">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Optional">
+
+                <label for="message">Why do you want to join?</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+
+                <button type="submit" class="btn">Join Now</button>
+            </form>
+        </div>
+    </section>
+    <!-- ACTIVE MEMBERS SECTION -->
+<section class="page light-bg">
+    <h1>Active Members</h1>
+
+    <div class="card">
+        <p>
+            The following are active members of The Ambazonian Voice.
+            All members participate anonymously to ensure safety and privacy.
+        </p>
+
+        <div class="members-grid" id="membersGrid">
+
+    <div class="member-card" data-role="Organizer" data-region="Diaspora">
+        <div class="avatar"></div>
+        <h3 class="member-id"></h3>
+        <p>Role: Organizer</p>
+        <span>Diaspora • Active since 2024</span>
+    </div>
+
+    <div class="member-card" data-role="Media" data-region="International">
+        <div class="avatar"></div>
+        <h3 class="member-id"></h3>
+        <p>Role: Media Advocate</p>
+        <span>International • Active since 2023</span>
+    </div>
+
+    <div class="member-card" data-role="Mobilizer" data-region="Homeland">
+        <div class="avatar"></div>
+        <h3 class="member-id"></h3>
+        <p>Role: Community Mobilizer</p>
+        <span>Homeland • Active since 2024</span>
+    </div>
+
+    <div class="member-card" data-role="Liaison" data-region="International">
+        <div class="avatar"></div>
+        <h3 class="member-id"></h3>
+        <p>Role: International Liaison</p>
+        <span>International • Active since 2022</span>
+    </div>
+
+</div>
+
+<script src="members.js"></script>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 The Ambazonian Voice. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
